@@ -9,10 +9,27 @@
 </head>
 <body>
     <div>
+        <input type="text" id="age" placeholder="enter your age">
         
+        <button type="button" onclick="check()">submit</button>
+        <p id="message"></p>
     </div>
     <script>
-    
+    function check(){
+        var y = Number(document.getElementById("age").value);
+        if(y>=18&&Number){
+            x="you may enter"
+
+        }else if(y<18){
+           x="nice try"
+
+        }else{
+            x="numbers only please"
+
+        }
+        document.getElementById("message").innerHTML=x;
+
+    }
     </script>
 
 </body>
