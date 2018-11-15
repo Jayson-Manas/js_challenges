@@ -1,0 +1,25 @@
+#special{
+    background: url("../images/final.png");
+    width: 80px;
+    height: 90px;
+    animation: walk 7s steps(50) infinite,
+               forward 60s linear infinite;
+}
+
+
+@keyframes walk{
+ 0%{
+   background-position: 6172px;
+ }
+ 100%{
+   background-position: 117px;
+    }
+}
+@keyframes forward{
+0%{
+ transform: translatex(0px);
+}
+100%{
+ transform: translatex(600px);  
+    }
+}
