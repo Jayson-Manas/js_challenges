@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>rainbow_2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="block">violet</div>
+        <div id="box2" class="block">indigo</div>
+        <div id="box3" class="block">blue</div>
+        <div id="box4" class="block">green</div>
+        <div id="box5" class="block">yellow</div>
+        <div id="box6" class="block">orange</div>
+        <div id="box7" class="block">red</div>
+    </div>
+
+    
+    <script>
+        "use strict";
+    var rainbow =["violet", "indigo", "blue", "green", "yellow", "orange", "red"];
+    var box=["box1", "box2", "box3", "box4", "box5", "box6", "box7"]
+    var i=0;
+    for(i=0;i<=6;i++){
+    document.getElementById(box[i]).style.backgroundColor = rainbow[i];
+    }
+    </script>
+</body>
+</html>
